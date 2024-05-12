@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  padding-bottom: 120px;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #191b1f;
+  padding-top: 90px;
+}
+
+.task {
+  background: #3a8dd5 !important;
+  color: aliceblue !important;
+  margin-top: 20px;
+  border-radius: 10px !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.task:hover {
+  background: #3a8dd5 !important;
+  color: aliceblue !important;
+  margin-top: 20px;
+  border-radius: 10px !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.task {
+  transition: all 0.2s !important;
+  box-shadow: 0px 7px 7px rgb(0, 0, 0, 0.4);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card_Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grid_title {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.typography_Todo {
+  font-weight: bold !important;
+  font-style: italic;
+  display: flex;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  font-size: 30px !important;
+  
+}
+p {
+  font-size: 20px !important;
+  font-weight: normal;
+  line-height: 20px;
+  padding: 7px;
+  margin-left: -220px;
+  color: black;
+}
+.div_Title {
+  text-align: left;
+  height: auto !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.grid_Icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+.roundded-Dev {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  color: #191b1ff5;
+  /* border: 2px solid greenyellow; */
+}
+
+.icon_Button {
+  transition: all 0.2s;
+  box-shadow: 0px 7px 7px rgb(0, 0, 0, 0.4);
+}
+
+.input_button {
+  margin-top: 30px !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.a input {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px !important;
+  font-size: 22px !important;
+  font-weight: normal !important;
+  height: 35px !important;
+  border: none !important;
+}
+.b {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.b button {
+  width: 200px;
+  height: 50px;
+  font-size: large;
+  background: rgb(24, 139, 139);
+  color: aliceblue;
+  border: none;
+}
+.b button:hover {
+  color: rgb(24, 139, 139);
+  background-color: rgba(255, 255, 255, 0.79);
+  border: rgb(24, 139, 139) solid 1px !important;
+}
+.b button {
+  transition: all 0.2s !important;
+  box-shadow: 0px 7px 7px rgb(0, 0, 0, 0.4);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+p {
+  font-size: 18px;
+  margin-left: 0.3px;
+  width: 550px;
+}
+
+.isCompleted {
+  background: gold;
+  color: white;
+}
+
+.valide {
+  background-color: rgba(220, 222, 224, 0.559) !important;
+}
+
+.fait {
+  text-decoration: line-through;
+}
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .a,b {
+    display: flex !important;
+  }
+  .grid_Icon{
+
+  }
+
+}
